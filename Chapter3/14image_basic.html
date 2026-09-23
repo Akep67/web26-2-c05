@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>14image_basic</title>
+</head>
+<body>
+    <h2>이미지 삽입하기</h2>
+    <img src="Penguins.jpg" alt="펭귄" width="250">
+    <img src="none" alt="존재하지 않음">
+    <img src="https://cyber.mjc.ac.kr/assets/img/logo_e.png" alt="">
+    <img src="frog.jpg" alt="개구리" width="200">
+
+    <h2>음악 삽입</h2>
+    <audio src="Kalimba.mp3" controls="controls"></audio>
+    
+    <h2>브라우저 제약 없이 삽입</h2>
+    <audio controls="controls">
+        <source src="Kalimba.mp4" type="audio/mp4">
+        <source src="Kalimba.ogg" type="audio/ogg">
+    </audio>
+
+    <h2>동영상 삽입</h2>
+    <video controls="controls" width="500">
+        <source src="Wildlife.mp4" type="video/mp4">
+        <source src="Wildlife.webm" type="video/webm">
+    </video>
+
+    <h2>동영상 불러오는 중 다른 이미지 보여주기</h2>
+    <video controls="controls" width="300" poster="frog.jpg">
+        <source src="Wildlife.mp4" type="video/mp4">
+        <source src="Wildlife.webm" type="video/webm">
+    </video>
+
+    
+
+</body>
+</html>
