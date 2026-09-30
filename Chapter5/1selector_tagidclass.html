@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>1selector_tagidclass</title>
+
+    <style>
+        * {color: mediumslateblue;}
+        h1 {color: red;}
+        p {color: rgb(151, 110, 95);}
+        h1,p {color: rgb(124, 65, 25);}
+
+        li.select{
+            color: aquamarine;
+        }
+        .header{
+            background-color: cornsilk;
+        }
+        .item{
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- id속성을 중복 사용하면 해당 id속성을 표시한 모든 태그에 스타일이 적용됨. 하지만 문제 발생의 소지가 있다. 여러개 쓸 때는 class -->
+    <h2 id="rint">1. 전체 선택자</h2>
+    <h2 id="rint">2. 태그선택자</h2>
+    <h2 id="rint">3. 아이디 선택자</h2>
+    <h2>4. 클래스 선택자</h2>
+    <hr>
+
+    <h1 class="item header">동해물과 백두산이</h1>
+    <hr>
+    <ul>
+        <li>사과</li>
+        <li class="select">바나나</li>
+        <li>오렌지</li>
+        <li class="select">포도</li>
+    </ul>
+
+    <hr>
+
+    <div id="header">
+        <h1>#header 태그</h1>
+    </div>
+    <div id="wrap">
+        <div id="aside">
+            <h1>#aside 태그</h1>
+        </div>
+        <div id="content">
+            <h1>#content 태그</h1>
+        </div>
+    </div>
+
+    <hr>
+
+    <h1>제목 글자</h1>
+    <p>Fusce convallis urna eu eros ullamcorper, sit amet ullamcorper eros eleifend. Aliquam erat volutpat. Quisque
+        posuere leo purus, vel mattis orci consectetur sed.</p>
+    <p>Aliquam erat volutpat. Quisque posuere leo purus, vel mattis orci consectetur sed.</p>
+</body>
+
+</html>
