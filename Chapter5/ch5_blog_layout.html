@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akep's blog</title>
+    <link rel="stylesheet" href="blog_style.css">
+</head>
+
+<body>
+    <!-- 전체를 감싸는 코드 -->
+    <div id="page-wrapper">
+        <!-- 헤더 -->
+        <header id="main-header">
+            <h1 class="title">Akep's blog</h1>
+            <h2 class="desc">설명</h2>
+        </header>
+        <!-- 네비게이션 -->
+        <nav id="main-nav">
+            <div class="pull-left">
+                <ul class="outer-menu">
+                    <li class="outer-menu-item">
+                        <span class="menu-title">HTML5</span>
+                        <ul class="inner-menu">
+                            <li class="inner-menu-item"><a href="#">데이터</a></li>
+                            <li class="inner-menu-item"><a href="#">데이터</a></li>
+                        </ul>
+                    </li>
+                    <li class="outer-menu-item">
+                        <span class="menu-title">CSS3</span>
+                        <ul class="inner-menu">
+                            <li class="inner-menu-item"><a href="#">데이터</a></li>
+                            <li class="inner-menu-item"><a href="#">데이터</a></li>
+                            <li class="inner-menu-item"><a href="#">데이터</a></li>
+                        </ul>
+                    </li>
+                    <li class="outer-menu-item">
+                        <span class="menu-title">JavaScript</span>
+                        <ul class="inner-menu">
+                            <li class="inner-menu-item"><a href="#">데이터</a></li>
+                            <li class="inner-menu-item"><a href="#">데이터</a></li>
+                            <li class="inner-menu-item"><a href="#">데이터</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="pull-right">
+                <div class="search-bar">
+                    <form>
+                        <input type="text" class="input-search">
+                        <input type="submit" class="input-search-submit" value="검색">
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- 본문 -->
+        <div id="content">
+            <!-- 본문 좌측 -->
+            <section id="main-section">
+                <article id="tutle">
+                    <div class="article-header">
+                        <h1 class="article-title">거북이</h1>
+                        <p class="article-date">2026.10.06</p>
+                    </div>
+                    <div class="article-body">
+                        <img src="https://mblogthumb-phinf.pstatic.net/MjAyMDA5MjNfNiAg/MDAxNjAwODUwNjAzMzc3.g-BBtV7q_Yu0cNFaMM6ahD2pys4fpxvybfU6dSq0_iwg.y-iUY7GU-3uFCNoB7Foc98eFunSBvc6NmFsKGo41qD0g.JPEG.siji5000/tip004t129345.jpg?type=w800"
+                            alt="" width="400">
+                        <br>
+                        <p>- 거북이의 등딱지는 갈비뼈와 척추가 변형되어 자란 실제 뼈로, 등딱지에서 몸을 분리할 수 없다.</p>
+                        <p>- 현재 세계 최장수 거북이는 세인트헬레나 섬에 사는 '조나단'이다. (194세 추정)</p>
+                        <a href="https://namu.wiki/w/%EA%B1%B0%EB%B6%81">Read more →</a>
+                    </div>
+                </article>
+                <article id="frog">
+                    <div class="article-header">
+                        <h1 class="article-title">개구리</h1>
+                        <p class="article-date">2026.10.06</p>
+                    </div>
+                    <div class="article-body">
+                        <img src="https://flexible.img.hani.co.kr/flexible/normal/680/527/imgdb/original/2026/0310/20260310501556.webp"
+                            alt="" width="400">
+                        <img src="https://i.namu.wiki/i/cIKGiX8ipo73vYDaWmVjRSIt6m9TeKHBE8Mev2P4VputyQAFR6Xpolab8u2W584xnK4Wus5A0X2UCZLjE4glqn-X5iMChvVRzAl93KzfNoGvAVjVnAlZnXdp5MwWiwg6EoOMGhnS-l8bMImKefy6EA.webp"
+                            alt="" width="200">
+                        <br>
+                        <p>- 개구리는 물을 마시지 않고 피부로 수분을 흡수한다.</p>
+                        <p>- 먹이를 삼킬 때 눈을 껌뻑거리는데, 이는 눈을 이용해 먹이를 삼키기 때문이다.</p>
+                        <p>- 개구리와 두꺼비를 구분하는 방법 : </p>
+                        <p>&nbsp&nbsp개구리는 매끄럽고 습한 피부를 가지고 있는 반면, 두꺼비는 피부가 거칠고 돌기가 돋아 있다.</p>
+
+                        <a href="https://namu.wiki/w/%EA%B0%9C%EA%B5%AC%EB%A6%AC">Read more →</a>
+                    </div>
+                </article>
+            </section>
+            <!-- 본문 우측 -->
+            <aside id="main-aside">
+                <div class="aside-list">
+                    <h3>카테고리</h3>
+                    <ul>
+                        <li><a href="#">개발</a></li>
+                        <li><a href="#">공부</a></li>
+                        <li><a href="#">일상</a></li>
+                    </ul>
+                </div>
+                <div class="aside-list">
+                    <h3>최근 글</h3>
+                    <ul>
+                        <li><a href="#tutle">거북이</a></li>
+                        <li><a href="#frog">개구리</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+        <!-- 푸터 -->
+        <footer id="main-footer">
+            <p>2026101013 이희찬</p>
+        </footer>
+    </div>
+</body>
+
+</html>
